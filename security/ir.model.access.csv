@@ -1,0 +1,14 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sale_order_viewer,sale.order.viewer,sale.model_sale_order,group_sale_order_viewer,1,0,0,0
+access_sale_order_manager,sale.order.manager,sale.model_sale_order,group_sale_order_manager,1,1,0,0
+access_sale_order_line_viewer,sale.order.line.viewer,sale.model_sale_order_line,group_sale_order_viewer,1,0,0,0
+access_sale_order_line_manager,sale.order.line.manager,sale.model_sale_order_line,group_sale_order_manager,1,1,0,0
+access_sale_order_option_viewer,sale.order.option.viewer,sale_management.model_sale_order_option,group_sale_order_viewer,1,0,0,0
+access_sale_order_option_manager,sale.order.option.manager,sale_management.model_sale_order_option,group_sale_order_manager,1,1,0,0
+access_stock_picking_viewer,stock.picking.viewer,stock.model_stock_picking,group_sale_order_viewer,1,0,0,0
+access_stock_picking_manager,stock.picking.manager,stock.model_stock_picking,group_sale_order_manager,1,0,0,0
+access_stock_move_viewer,stock.move.viewer,stock.model_stock_move,group_sale_order_viewer,1,0,0,0
+access_stock_move_manager,stock.move.manager,stock.model_stock_move,group_sale_order_manager,1,0,0,0
+access_stock_move_line_viewer,stock.move.line.viewer,stock.model_stock_move_line,group_sale_order_viewer,1,0,0,0
+access_stock_move_line_manager,stock.move.line.manager,stock.model_stock_move_line,group_sale_order_manager,1,0,0,0
+access_stock_orderpoint_manager,stock.orderpoint.manager,stock.model_stock_warehouse_orderpoint,group_sale_order_manager,1,0,0,0
